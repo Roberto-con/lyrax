@@ -5,18 +5,18 @@
 :root {
   /* Colores */
   --fondo: #01050b;          /* mismo negro azulado del fondo del logo */
-  --superficie: #061024;
-  --superficie-2: #0a1830;
-  --linea: #14294f;
-  --linea-fuerte: #1f3f7a;
-  --azul: #1a63f0;           /* azul eléctrico principal */
-  --azul-hover: #2f78ff;
-  --brillo: #3fa9ff;         /* el resplandor de las líneas del logo */
-  --texto: #dfe5ee;          /* plateado de las letras LYRAX */
-  --texto-suave: #93a3bf;
-  --exito: #3ddc97;
-  --alerta: #ffb547;
-  --error: #ff6b7a;
+  --superficie: #07101e;
+  --superficie-2: #0b1628;
+  --linea: #122038;
+  --linea-fuerte: #1c3154;
+  --azul: #2e5fb8;           /* azul del logo, más sobrio */
+  --azul-hover: #386cc8;
+  --brillo: #86b6ea;         /* acento suave para textos y detalles */
+  --texto: #dde3ec;          /* plateado de las letras LYRAX */
+  --texto-suave: #8d9bb3;
+  --exito: #5cc49a;
+  --alerta: #e0b56a;
+  --error: #e58a95;
 
   /* Tipografía */
   --fuente-marca: 'Michroma', 'Segoe UI', sans-serif;
@@ -30,14 +30,14 @@
   --t-lg: 1.25rem;
   --t-xl: 1.563rem;
   --t-2xl: 2.441rem;
-  --t-3xl: clamp(2rem, 5vw, 3.6rem);
+  --t-3xl: clamp(1.8rem, 4.2vw, 2.9rem);
 
   /* Espaciado y formas */
   --radio: 14px;
   --radio-sm: 8px;
   --ancho: 1160px;
   --margen: clamp(16px, 4vw, 40px);
-  --sombra-brillo: 0 0 0 1px var(--linea-fuerte), 0 0 28px -6px rgba(63, 169, 255, 0.45);
+  --sombra-brillo: none;
 }
 
 *,
@@ -62,7 +62,7 @@ body.sin-scroll { overflow: hidden; }
 img { max-width: 100%; display: block; }
 
 h1, h2, h3 { margin: 0; line-height: 1.2; font-weight: 700; }
-h2 { font-family: var(--fuente-marca); font-size: var(--t-xl); font-weight: 400; letter-spacing: 0.02em; }
+h2 { font-family: var(--fuente-marca); font-size: var(--t-lg); font-weight: 400; letter-spacing: 0.04em; }
 h3 { font-size: var(--t-lg); }
 p { margin: 0; }
 

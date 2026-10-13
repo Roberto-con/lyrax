@@ -48,8 +48,8 @@ Los archivos marcados con ⭐ son los que más se editan. El resto casi nunca se
 Editar `js/data/productos.js`. Cada producto es un bloque `{ ... }`; copiar uno y cambiar sus datos.
 Para marcar un producto como agotado: `disponible: false`.
 
-**Agregar las fotos pendientes** (alfajor, galleta y rollo de canela)
-1. Guardar la foto en `assets/img/productos/` (por ejemplo, `alfajor.jpg`, de unos 800 × 600 px).
+**Cambiar la foto de un producto**
+1. Guardar la foto en `assets/img/productos/` (de unos 800 × 600 px, formato horizontal 4:3).
 2. En `js/data/productos.js`, poner la ruta en el campo `imagen`: `imagen: 'assets/img/productos/alfajor.jpg'`.
 
 **Cambiar el QR de pago** (el actual vence el 13 de noviembre de 2026)

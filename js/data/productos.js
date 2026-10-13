@@ -49,7 +49,7 @@ export const PRODUCTOS = [
     precio: 5,
     unidad: 'Por unidad',
     descripcion: 'Relleno de dulce de leche y borde de coco rallado.',
-    imagen: '', // FOTO PENDIENTE: assets/img/productos/alfajor.jpg
+    imagen: 'assets/img/productos/alfajor.jpg',
     anticipacion: false,
     disponible: true,
   },
@@ -60,7 +60,7 @@ export const PRODUCTOS = [
     precio: 2,
     unidad: 'Por unidad',
     descripcion: 'Horneada cada día, crujiente por fuera y suave por dentro.',
-    imagen: '', // FOTO PENDIENTE: assets/img/productos/galleta.jpg
+    imagen: 'assets/img/productos/galleta.jpg',
     anticipacion: false,
     disponible: true,
   },
@@ -71,7 +71,7 @@ export const PRODUCTOS = [
     precio: 3,
     unidad: 'Por unidad',
     descripcion: 'Masa suave enrollada con canela y azúcar.',
-    imagen: '', // FOTO PENDIENTE: assets/img/productos/rollo-canela.jpg
+    imagen: 'assets/img/productos/rollo-canela.jpg',
     anticipacion: false,
     disponible: true,
   },

@@ -72,7 +72,7 @@
   font-size: var(--t-sm);
   color: var(--texto-suave);
 }
-.portada__datos li::before { content: '›'; color: var(--brillo); margin-right: 8px; }
+
 
 .portada__logo {
   position: relative;
@@ -131,9 +131,9 @@
   height: 34px;
   margin-bottom: 14px;
   border-radius: 50%;
-  border: 1px solid var(--brillo);
-  color: var(--brillo);
-  font-family: var(--fuente-marca);
+  border: 1px solid var(--linea-fuerte);
+  color: var(--texto-suave);
+  font-family: var(--fuente-texto);
   font-size: var(--t-sm);
 }
 .pasos h3 { font-size: var(--t-md); margin-bottom: 6px; }
@@ -176,4 +176,4 @@
   justify-content: space-between;
 }
 .pie img { height: 22px; width: auto; }
-.pie__lema { font-family: var(--fuente-marca); font-size: var(--t-xs); letter-spacing: 0.12em; color: var(--brillo); margin-top: 10px; }
+.pie__lema { font-size: var(--t-xs); color: var(--texto-suave); margin-top: 10px; }
